@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29270C032467008700A5804C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C022467008700A5804C /* AppDelegate.swift */; };
+		29270C052467008700A5804C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C042467008700A5804C /* SceneDelegate.swift */; };
+		29270C072467008700A5804C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C062467008700A5804C /* ContentView.swift */; };
+		29270C092467008A00A5804C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29270C082467008A00A5804C /* Assets.xcassets */; };
+		29270C0C2467008A00A5804C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29270C0B2467008A00A5804C /* Preview Assets.xcassets */; };
+		29270C0F2467008A00A5804C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29270C0D2467008A00A5804C /* LaunchScreen.storyboard */; };
+		29270C1A2467008B00A5804C /* TabletTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C192467008B00A5804C /* TabletTimerTests.swift */; };
+		29270C252467008B00A5804C /* TabletTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C242467008B00A5804C /* TabletTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29270C162467008B00A5804C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29270BF72467008700A5804C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29270BFE2467008700A5804C;
+			remoteInfo = TabletTimer;
+		};
+		29270C212467008B00A5804C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29270BF72467008700A5804C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29270BFE2467008700A5804C;
+			remoteInfo = TabletTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29270BFF2467008700A5804C /* TabletTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29270C022467008700A5804C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29270C042467008700A5804C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29270C062467008700A5804C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29270C082467008A00A5804C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29270C0B2467008A00A5804C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29270C0E2467008A00A5804C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29270C102467008A00A5804C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29270C152467008B00A5804C /* TabletTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29270C192467008B00A5804C /* TabletTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletTimerTests.swift; sourceTree = "<group>"; };
+		29270C1B2467008B00A5804C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29270C202467008B00A5804C /* TabletTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29270C242467008B00A5804C /* TabletTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletTimerUITests.swift; sourceTree = "<group>"; };
+		29270C262467008B00A5804C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29270BFC2467008700A5804C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29270C122467008B00A5804C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29270C1D2467008B00A5804C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29270BF62467008700A5804C = {
+			isa = PBXGroup;
+			children = (
+				29270C012467008700A5804C /* TabletTimer */,
+				29270C182467008B00A5804C /* TabletTimerTests */,
+				29270C232467008B00A5804C /* TabletTimerUITests */,
+				29270C002467008700A5804C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29270C002467008700A5804C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29270BFF2467008700A5804C /* TabletTimer.app */,
+				29270C152467008B00A5804C /* TabletTimerTests.xctest */,
+				29270C202467008B00A5804C /* TabletTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29270C012467008700A5804C /* TabletTimer */ = {
+			isa = PBXGroup;
+			children = (
+				29270C022467008700A5804C /* AppDelegate.swift */,
+				29270C042467008700A5804C /* SceneDelegate.swift */,
+				29270C062467008700A5804C /* ContentView.swift */,
+				29270C082467008A00A5804C /* Assets.xcassets */,
+				29270C0D2467008A00A5804C /* LaunchScreen.storyboard */,
+				29270C102467008A00A5804C /* Info.plist */,
+				29270C0A2467008A00A5804C /* Preview Content */,
+			);
+			path = TabletTimer;
+			sourceTree = "<group>";
+		};
+		29270C0A2467008A00A5804C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29270C0B2467008A00A5804C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29270C182467008B00A5804C /* TabletTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				29270C192467008B00A5804C /* TabletTimerTests.swift */,
+				29270C1B2467008B00A5804C /* Info.plist */,
+			);
+			path = TabletTimerTests;
+			sourceTree = "<group>";
+		};
+		29270C232467008B00A5804C /* TabletTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29270C242467008B00A5804C /* TabletTimerUITests.swift */,
+				29270C262467008B00A5804C /* Info.plist */,
+			);
+			path = TabletTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29270BFE2467008700A5804C /* TabletTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29270C292467008B00A5804C /* Build configuration list for PBXNativeTarget "TabletTimer" */;
+			buildPhases = (
+				29270BFB2467008700A5804C /* Sources */,
+				29270BFC2467008700A5804C /* Frameworks */,
+				29270BFD2467008700A5804C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabletTimer;
+			productName = TabletTimer;
+			productReference = 29270BFF2467008700A5804C /* TabletTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29270C142467008B00A5804C /* TabletTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29270C2C2467008B00A5804C /* Build configuration list for PBXNativeTarget "TabletTimerTests" */;
+			buildPhases = (
+				29270C112467008B00A5804C /* Sources */,
+				29270C122467008B00A5804C /* Frameworks */,
+				29270C132467008B00A5804C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29270C172467008B00A5804C /* PBXTargetDependency */,
+			);
+			name = TabletTimerTests;
+			productName = TabletTimerTests;
+			productReference = 29270C152467008B00A5804C /* TabletTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29270C1F2467008B00A5804C /* TabletTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29270C2F2467008B00A5804C /* Build configuration list for PBXNativeTarget "TabletTimerUITests" */;
+			buildPhases = (
+				29270C1C2467008B00A5804C /* Sources */,
+				29270C1D2467008B00A5804C /* Frameworks */,
+				29270C1E2467008B00A5804C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29270C222467008B00A5804C /* PBXTargetDependency */,
+			);
+			name = TabletTimerUITests;
+			productName = TabletTimerUITests;
+			productReference = 29270C202467008B00A5804C /* TabletTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29270BF72467008700A5804C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Daniel Pape";
+				TargetAttributes = {
+					29270BFE2467008700A5804C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					29270C142467008B00A5804C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 29270BFE2467008700A5804C;
+					};
+					29270C1F2467008B00A5804C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 29270BFE2467008700A5804C;
+					};
+				};
+			};
+			buildConfigurationList = 29270BFA2467008700A5804C /* Build configuration list for PBXProject "TabletTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29270BF62467008700A5804C;
+			productRefGroup = 29270C002467008700A5804C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29270BFE2467008700A5804C /* TabletTimer */,
+				29270C142467008B00A5804C /* TabletTimerTests */,
+				29270C1F2467008B00A5804C /* TabletTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29270BFD2467008700A5804C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29270C0F2467008A00A5804C /* LaunchScreen.storyboard in Resources */,
+				29270C0C2467008A00A5804C /* Preview Assets.xcassets in Resources */,
+				29270C092467008A00A5804C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29270C132467008B00A5804C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29270C1E2467008B00A5804C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29270BFB2467008700A5804C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29270C032467008700A5804C /* AppDelegate.swift in Sources */,
+				29270C052467008700A5804C /* SceneDelegate.swift in Sources */,
+				29270C072467008700A5804C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29270C112467008B00A5804C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29270C1A2467008B00A5804C /* TabletTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29270C1C2467008B00A5804C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29270C252467008B00A5804C /* TabletTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29270C172467008B00A5804C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29270BFE2467008700A5804C /* TabletTimer */;
+			targetProxy = 29270C162467008B00A5804C /* PBXContainerItemProxy */;
+		};
+		29270C222467008B00A5804C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29270BFE2467008700A5804C /* TabletTimer */;
+			targetProxy = 29270C212467008B00A5804C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29270C0D2467008A00A5804C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29270C0E2467008A00A5804C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29270C272467008B00A5804C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29270C282467008B00A5804C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29270C2A2467008B00A5804C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TabletTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XK8CTGKE3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TabletTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.TabletTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29270C2B2467008B00A5804C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TabletTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XK8CTGKE3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TabletTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.TabletTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29270C2D2467008B00A5804C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XK8CTGKE3;
+				INFOPLIST_FILE = TabletTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.TabletTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletTimer.app/TabletTimer";
+			};
+			name = Debug;
+		};
+		29270C2E2467008B00A5804C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XK8CTGKE3;
+				INFOPLIST_FILE = TabletTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.TabletTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletTimer.app/TabletTimer";
+			};
+			name = Release;
+		};
+		29270C302467008B00A5804C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XK8CTGKE3;
+				INFOPLIST_FILE = TabletTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.TabletTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabletTimer;
+			};
+			name = Debug;
+		};
+		29270C312467008B00A5804C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XK8CTGKE3;
+				INFOPLIST_FILE = TabletTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.TabletTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabletTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29270BFA2467008700A5804C /* Build configuration list for PBXProject "TabletTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29270C272467008B00A5804C /* Debug */,
+				29270C282467008B00A5804C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29270C292467008B00A5804C /* Build configuration list for PBXNativeTarget "TabletTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29270C2A2467008B00A5804C /* Debug */,
+				29270C2B2467008B00A5804C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29270C2C2467008B00A5804C /* Build configuration list for PBXNativeTarget "TabletTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29270C2D2467008B00A5804C /* Debug */,
+				29270C2E2467008B00A5804C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29270C2F2467008B00A5804C /* Build configuration list for PBXNativeTarget "TabletTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29270C302467008B00A5804C /* Debug */,
+				29270C312467008B00A5804C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29270BF72467008700A5804C /* Project object */;
+}
