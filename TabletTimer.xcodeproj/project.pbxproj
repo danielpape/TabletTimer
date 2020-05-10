@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290A68FB2467E74E00BE99AD /* TabletRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A68FA2467E74E00BE99AD /* TabletRow.swift */; };
+		290A68FD2467E85300BE99AD /* TabletList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A68FC2467E85300BE99AD /* TabletList.swift */; };
+		290A68FF2467E9E100BE99AD /* tabletData.json in Resources */ = {isa = PBXBuildFile; fileRef = 290A68FE2467E9E100BE99AD /* tabletData.json */; };
+		290A69032467F1F000BE99AD /* TabletDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A69022467F1F000BE99AD /* TabletDetail.swift */; };
 		29270C032467008700A5804C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C022467008700A5804C /* AppDelegate.swift */; };
 		29270C052467008700A5804C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C042467008700A5804C /* SceneDelegate.swift */; };
 		29270C072467008700A5804C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C062467008700A5804C /* ContentView.swift */; };
@@ -15,6 +19,8 @@
 		29270C0F2467008A00A5804C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29270C0D2467008A00A5804C /* LaunchScreen.storyboard */; };
 		29270C1A2467008B00A5804C /* TabletTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C192467008B00A5804C /* TabletTimerTests.swift */; };
 		29270C252467008B00A5804C /* TabletTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C242467008B00A5804C /* TabletTimerUITests.swift */; };
+		29270C352467383B00A5804C /* TabletStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C342467383B00A5804C /* TabletStore.swift */; };
+		29270C372467394A00A5804C /* Tablet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29270C362467394A00A5804C /* Tablet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		290A68FA2467E74E00BE99AD /* TabletRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletRow.swift; sourceTree = "<group>"; };
+		290A68FC2467E85300BE99AD /* TabletList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletList.swift; sourceTree = "<group>"; };
+		290A68FE2467E9E100BE99AD /* tabletData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabletData.json; sourceTree = "<group>"; };
+		290A69022467F1F000BE99AD /* TabletDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletDetail.swift; sourceTree = "<group>"; };
 		29270BFF2467008700A5804C /* TabletTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29270C022467008700A5804C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29270C042467008700A5804C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		29270C202467008B00A5804C /* TabletTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29270C242467008B00A5804C /* TabletTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletTimerUITests.swift; sourceTree = "<group>"; };
 		29270C262467008B00A5804C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29270C342467383B00A5804C /* TabletStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletStore.swift; sourceTree = SOURCE_ROOT; };
+		29270C362467394A00A5804C /* Tablet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 		29270C012467008700A5804C /* TabletTimer */ = {
 			isa = PBXGroup;
 			children = (
+				290A68FE2467E9E100BE99AD /* tabletData.json */,
+				29270C362467394A00A5804C /* Tablet.swift */,
+				29270C342467383B00A5804C /* TabletStore.swift */,
 				29270C022467008700A5804C /* AppDelegate.swift */,
 				29270C042467008700A5804C /* SceneDelegate.swift */,
 				29270C062467008700A5804C /* ContentView.swift */,
@@ -106,6 +121,9 @@
 				29270C0D2467008A00A5804C /* LaunchScreen.storyboard */,
 				29270C102467008A00A5804C /* Info.plist */,
 				29270C0A2467008A00A5804C /* Preview Content */,
+				290A68FA2467E74E00BE99AD /* TabletRow.swift */,
+				290A68FC2467E85300BE99AD /* TabletList.swift */,
+				290A69022467F1F000BE99AD /* TabletDetail.swift */,
 			);
 			path = TabletTimer;
 			sourceTree = "<group>";
@@ -241,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29270C0F2467008A00A5804C /* LaunchScreen.storyboard in Resources */,
+				290A68FF2467E9E100BE99AD /* tabletData.json in Resources */,
 				29270C0C2467008A00A5804C /* Preview Assets.xcassets in Resources */,
 				29270C092467008A00A5804C /* Assets.xcassets in Resources */,
 			);
@@ -267,7 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290A68FB2467E74E00BE99AD /* TabletRow.swift in Sources */,
+				290A68FD2467E85300BE99AD /* TabletList.swift in Sources */,
+				29270C372467394A00A5804C /* Tablet.swift in Sources */,
 				29270C032467008700A5804C /* AppDelegate.swift in Sources */,
+				290A69032467F1F000BE99AD /* TabletDetail.swift in Sources */,
+				29270C352467383B00A5804C /* TabletStore.swift in Sources */,
 				29270C052467008700A5804C /* SceneDelegate.swift in Sources */,
 				29270C072467008700A5804C /* ContentView.swift in Sources */,
 			);

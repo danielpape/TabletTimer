@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Amplodine",
+        "frequency" : "daily",
+        "amount" : 1,
+        "priority": 1
+    },
+    {
+        "name": "Codeine",
+        "frequency" : "daily",
+        "amount" : 2,
+        "priority": 1
+]
