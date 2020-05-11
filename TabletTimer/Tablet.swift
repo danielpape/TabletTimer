@@ -19,7 +19,7 @@ struct Tablet: Identifiable, Hashable {
 
 #if DEBUG
 
-let testData = [
+var testData = [
     Tablet(name: "Amplodine", dateAdded: Date(), priority: 1, frequency: "daily", amount: 1),
     Tablet(name: "Levetiracetam", dateAdded: Date(), priority: 1, frequency: "daily", amount: 2),
     Tablet(name: "Codeine", dateAdded: Date(), priority: 2, frequency: "daily", amount: 1)
