@@ -53,6 +53,8 @@ struct Home : View {
     var priorities = ["Not essential", "Nice to have", "I need this to live"]
     @State private var selectedPriority = 0
     
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+    
     var modalPresentation : some View {
         NavigationView {
             VStack{
@@ -72,18 +74,18 @@ struct Home : View {
                             }
                         }
                         
-                            Picker(selection: $selectedStrength, label: Text("Frequency")) {
-                            ForEach(0 ..< strengths.count) {
-                                Text(self.strengths[$0])
-                            }
-                            }
-                        
-                                Button(action: {
-                                    self.MaximumDosageRequired = true
+                        Picker(selection: $selectedStrength, label: Text("Frequency")) {
+                        ForEach(0 ..< strengths.count) {
+                            Text(self.strengths[$0])
+                        }
+                        }
+                                            
+                        Button(action: {
+                            self.MaximumDosageRequired = true
 
-                                }) {
-                                    Text("Add maximum dosage")
-                                }
+                        }) {
+                            Text("Add maximum dosage")
+                        }
             
                     }
                     Section(header: Text("Maximum Dosage")){
@@ -121,7 +123,7 @@ struct Home : View {
     }
     
     func addTablet() {
-        testData.append(Tablet(name: $TabletName.wrappedValue, dateAdded: Date(), priority: 2, frequency: "daily", amount: 2))
+        testData.append(Tablet(name: $TabletName.wrappedValue, dateAdded: Date(), maxDoseageMinutes: 1, priority: 2, frequency: "daily", amount: 2))
     }
     
     func delete(at offsets: IndexSet) {
@@ -135,10 +137,10 @@ struct Home : View {
             VStack{
                 List{
                     ForEach(testData) { tablet in
-                        NavigationLink(destination: TabletDetail(tablet: tablet)) {
+                        NavigationLink(destination: TabletDetail(tablet:tablet)) {
                             TabletRow(tablet: tablet)
                         }
-                    }
+                        }
                 .onDelete(perform: delete)
                 }
                 
@@ -184,7 +186,6 @@ struct Home : View {
                 else {
 
                     self.start.toggle()
-                    self.Notify()
                     print("Ended")
                 }
             }
@@ -193,18 +194,5 @@ struct Home : View {
             self.modalPresentation
             }
         }
-    
-    func Notify(){
-        
-        let content = UNMutableNotificationContent()
-        content.title = "Message"
-        content.body = "Timer completed"
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
-        
-        let req = UNNotificationRequest(identifier: "MSG", content: content, trigger: trigger)
-        
-        UNUserNotificationCenter.current().add(req, withCompletionHandler: nil)
-        
-    }
+
 }

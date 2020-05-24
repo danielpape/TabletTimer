@@ -13,8 +13,7 @@ struct TabletDetail: View {
     
     var body: some View {
         Text(tablet.name)
-        .navigationBarTitle(Text(tablet.name), displayMode: .inline)
-    }
+}
 }
 
 struct TabletDetail_Previews: PreviewProvider {

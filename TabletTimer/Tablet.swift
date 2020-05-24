@@ -12,17 +12,22 @@ struct Tablet: Identifiable, Hashable {
     let id = UUID()
     var name: String
     var dateAdded: Date
+    var maxDoseageMinutes : Int
     var priority: Int
     var frequency: String
     var amount : Int
+    
+    func startTimer() {
+        print("Timer started for "+name)
+    }
 }
 
 #if DEBUG
 
 var testData = [
-    Tablet(name: "Amplodine", dateAdded: Date(), priority: 1, frequency: "daily", amount: 1),
-    Tablet(name: "Levetiracetam", dateAdded: Date(), priority: 1, frequency: "daily", amount: 2),
-    Tablet(name: "Codeine", dateAdded: Date(), priority: 2, frequency: "daily", amount: 1)
+    Tablet(name: "Amplodine", dateAdded: Date(), maxDoseageMinutes: 180, priority: 1, frequency: "daily", amount: 1),
+    Tablet(name: "Levetiracetam", dateAdded: Date(), maxDoseageMinutes: 1, priority: 1, frequency: "daily", amount: 2),
+    Tablet(name: "Codeine", dateAdded: Date(), maxDoseageMinutes: 1, priority: 2, frequency: "daily", amount: 1)
 ]
 
 #endif

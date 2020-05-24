@@ -12,14 +12,22 @@ struct TabletRow: View {
     
     var tablet: Tablet
     
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+
+    
     var body: some View {
         HStack{
             Text(tablet.name)
             .bold()
             Spacer()
             HStack{
-                Text(String(tablet.amount))
-                Text(tablet.frequency)
+                Button(action: {
+                    self.appDelegate?.scheduleNotification(notificationType: "Local Notification",tablet: testData[0])
+                    print("scheduled")
+                }) {
+                    Text("Start timer")
+                }
+                .buttonStyle(BorderlessButtonStyle())
             }
         }
     }
